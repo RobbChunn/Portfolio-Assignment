@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet">
+    <style>
+        .body-color{
+            background-color:rgb(82,85,94);
+        }
+        .hand-font{
+            font-family: 'Palanquin Dark', sans-serif;
+            color:darkgoldenrod;
+            text-align: center;
+        }
+        .button-font{
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        .form-box {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: rgb(82,85,94);
+            padding: 20px 80px;
+        }
+        .input-style {
+            height: 20px;
+            border: 2px solid darkgoldenrod;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .button {
+            font-family: 'Palanquin Dark', sans-serif;
+            width: 30%;
+            background-color: #D1EA44;
+            border: 2px solid black;
+            border-radius: 25%;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body class="body-color">
+    <h1 class="hand-font">Feel free to reach out!</h1>
+    <div class="form-box hand-font">
+        <label for="name">Name: (First & Last)</label>
+        <input class="input-style hand-font" type="text" name="name" />
+        <label for="email">Email:</label>
+        <input class="input-style hand-font" type="text" name="email" />
+        <label for="message">Message:</label>
+        <input class="input-style hand-font" type="text" name="message" />
+        <a href="mailto:robert.e.chunn@gmail.com"><button class="hand-font button-font">Send Email</button></a>
+    </form>
+    <a href="index.html"><button class="button hand-font">Home!</button></a>
+    <a href="Work.html"><button class="button hand-font">Check out my projects!</button></a>
+</body>
+</html>

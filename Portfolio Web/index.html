@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+        .body-color{
+            background-color:rgb(82,85,94);
+        }
+        .hand-font{
+            font-family: 'Palanquin Dark', sans-serif;
+            color:darkgoldenrod;
+            text-align: center;
+        }
+        .button-font{
+            font-family: 'Palanquin Dark', sans-serif;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: rgb(82,85,94);
+        }
+        button {
+            width: 30%;
+            background-color: #D1EA44;
+            border: 2px solid black;
+            border-radius: 25%;
+            margin-bottom: 10px;
+        }
+        .para-style {
+            margin-bottom: 45px;
+        }
+        @keyframes slideover {
+        from {left: -300px;}
+        to {left: 0px;}
+        }
+        .img-style {
+            display: block;
+            border-radius: 50%;
+            margin:0 auto;
+            animation: slideover 5s;
+            animation-timing-function: ease;
+            position: relative;  
+        }
+    </style>
+</head>
+<body class="body-color">
+   <h1 class="hand-font">Greetings, I'm Robb Chunn!</h1>
+   <img class="img-style" src="./20190411_194517.jpg" alt="Me in a suit" width="200" height="333">
+   <h2 class="hand-font">I'm a Software Developer!</h2>
+   <h3 class="hand-font">Here's a little bit about me . . .</h3>
+   <p class="hand-font para-style">Thank you for taking a look at my website! My name is Robert, but I go by Robb. I was born and raised in Memphis, TN,
+       which is also where I graduated as a first generation college student. I received my degree in English in December 2017, and I used that degree as well as a great LSAT 
+       score to start law school the following year. Unfortunately, I had to leave law school one year later due to extenuating family circumstances, so I was back to square one of what to do with my life. 
+       I had always enjoyed learning about technology, but instead of going back to college and going deeper into student debt, I decided that the military was the best route for me to take. 
+       I enlisted in the Air National Guard and began training for Cyber Security, which led to me gaining my A+ and Security+ certificates from CompTIA. After serving for several years I decided to make the 
+       switch to the private sector, but my experience in Cyber Security was not really what the private sector was looking for. I then began to teach myself Java and Java Script, and with the help of my best friend, 
+       I became more sufficient every day! After about 10 months of solo learning I decided to join Cook Systems Fast Track program for Java and Java Script, and I've learned more than I ever could have alone!
+       In my free time, I like to play Apex Legends with my friends, work on personal coding projects, or hang out with my girlfriend Courtney and my pup Eve!
+   </p>
+   <div>
+    <a href="C:\Users\Robb-\OneDrive\Documents\Robert Chunn CookSys resume.pdf" download><button class="button-font hand-font"><i class="fa fa-download"></i> Download Resume</button></a>
+    <a href="Work.html"><button class="button-font hand-font">Check out my projects!</button></a>
+    <a href="Contact.html"><button class="button-font hand-font">Contact me!</button></a>
+   </div>
+</body>
+</html>
